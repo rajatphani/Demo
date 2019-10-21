@@ -1,11 +1,20 @@
-/* Which of the following compile? (Choose all that apply)
-A. final static void method4() { }
-B. public final int void method() { }
-C. private void int method() { }
-D. static final void method3() { }
-E. void final method() {}
-F. void public method() { }
-*/
+/*
+ What data type (or types) will allow the following code snippet to compile? (Choose all that
+apply)
+byte x = 5;
+byte y = 10;
+_____ z = x + y;
+A. int
+B. long
+C. boolean
+D. double
+E. short
+F. byte
+3.
+ */
 public class Question2 {
+	byte x = 5;
+	byte y = 10;
+	int z = x + y;
 
 }
